@@ -1,0 +1,107 @@
+.pizzas {
+    border: 2px solid blue;
+    margin-bottom: 1em;
+    padding: 1.2em;
+    color: aliceblue;
+    background-color: #e19999; 
+}
+h1 {
+    font-size: 3em;
+    margin-top: 5em;
+    text-align: center;
+    color: aliceblue;
+    border: 2px solid rgb(215, 237, 17);
+    outline-style: solid;
+    outline-color: red;
+    margin: 1em;
+}
+
+table,
+th,
+td {
+    background-image: url(fire.jpg);
+color: aliceblue;
+
+    font-size: large;
+    border: 2px solid;
+    padding: 5px;
+    text-align: left;
+    width: auto ;
+    height: auto;
+}
+section{
+    display: flex;
+   margin-left: 7em;
+}
+
+.subsect{
+    
+  margin-left: 2.1em;
+  background-color: #a82c03;
+  padding-left: 1em;
+  padding-right: 1.5em;
+  padding-top:1.5em;
+  padding-bottom: 1.5em;
+  font-size: 0.7em;
+  font-family: 'Courier New', Courier, monospace;
+  width: 450px;
+  height: 410px;
+}
+#billbtn {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+}  
+button {
+    display: inline-block;
+    padding: 1px 15px;
+    font-size: 15px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 3px #999;
+  }
+  
+  button:hover {background-color: #3e8e41}
+  
+  button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 1px #666;
+    transform: translateY(4px);
+  }
+  
+  div.polaroid {
+    width: 80%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+  }
+  
+  div.container {
+    text-align: center;
+    padding: 10px 20px;
+  }
+  @media (max-width: 760px) {
+    section {
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0;
+    }
+  
+    .subsect {
+        margin: 1em;
+        width: auto;
+    }
+
+  }  
